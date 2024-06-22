@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>العقارات</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+      defer
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo right">موقع العقارات</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="index.html">الصفحة الرئيسية</a></li>
+          <li><a href="about.html">من نحن</a></li>
+          <li><a href="properties.html">العقارات</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <section id="properties" class="section1">
+        <h1 class="center-align">العقارات</h1>
+        <table class="highlight centered">
+          <thead>
+            <tr>
+              <th>المدينة</th>
+              <th>تفاصيل العقار</th>
+              <th>الإيجار الشهري</th>
+              <th>تفاصيل أكثر</th>
+              <th>اختيار</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>دمشق</td>
+              <td>شقة 3 غرف وصالون</td>
+              <td>500,000 ل.س</td>
+              <td>
+                <button class="btn details-btn">إظهار التفاصيل</button>
+              </td>
+              <td><button class="btn select-btn">اختيار</button></td>
+            </tr>
+            <tr class="details-row" style="display: none">
+              <td colspan="5">
+                <img
+                  src="images/property1.jpg"
+                  alt="صورة العقار"
+                  class="property-img"
+                />
+                <ul>
+                  <li>المنطقة: المالكي</li>
+                  <li>متوفر كراج: نعم</li>
+                  <li>الطابق: الثاني</li>
+                  <li>الملكية: ملكية خاصة</li>
+                  <li>مساحة البلكون: 20 متر مربع</li>
+                  <li>مفروش: نعم</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>دمشق</td>
+              <td>شقة 2 غرف وصالون</td>
+              <td>400,000 ل.س</td>
+              <td>
+                <button class="btn details-btn">إظهار التفاصيل</button>
+              </td>
+              <td><button class="btn select-btn">اختيار</button></td>
+            </tr>
+            <tr class="details-row" style="display: none">
+              <td colspan="5">
+                <img
+                  src="images/property2.png"
+                  alt="صورة العقار"
+                  class="property-img"
+                />
+                <ul>
+                  <li>المنطقة: أبو رمانة</li>
+                  <li>متوفر كراج: لا</li>
+                  <li>الطابق: الثالث</li>
+                  <li>الملكية: إيجار</li>
+                  <li>مساحة البلكون: 10 متر مربع</li>
+                  <li>مفروش: لا</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>حلب</td>
+              <td>شقة 4 غرف وصالون</td>
+              <td>600,000 ل.س</td>
+              <td>
+                <button class="btn details-btn">إظهار التفاصيل</button>
+              </td>
+              <td><button class="btn select-btn">اختيار</button></td>
+            </tr>
+            <tr class="details-row" style="display: none">
+              <td colspan="5">
+                <img
+                  src="images/property3.jpg"
+                  alt="صورة العقار"
+                  class="property-img"
+                />
+                <ul>
+                  <li>المنطقة: الشهباء</li>
+                  <li>متوفر كراج: نعم</li>
+                  <li>الطابق: الرابع</li>
+                  <li>الملكية: ملكية خاصة</li>
+                  <li>مساحة البلكون: 30 متر مربع</li>
+                  <li>مفروش: نعم</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>حلب</td>
+              <td>شقة 1 غرفة وصالون</td>
+              <td>300,000 ل.س</td>
+              <td>
+                <button class="btn details-btn">إظهار التفاصيل</button>
+              </td>
+              <td><button class="btn select-btn">اختيار</button></td>
+            </tr>
+            <tr class="details-row" style="display: none">
+              <td colspan="5">
+                <img
+                  src="images/property4.jpg"
+                  alt="صورة العقار"
+                  class="property-img"
+                />
+                <ul>
+                  <li>المنطقة: العزيزية</li>
+                  <li>متوفر كراج: لا</li>
+                  <li>الطابق: الخامس</li>
+                  <li>الملكية: إيجار</li>
+                  <li>مساحة البلكون: 5 متر مربع</li>
+                  <li>مفروش: لا</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>دمشق</td>
+              <td>شقة 3 غرف وصالون</td>
+              <td>450,000 ل.س</td>
+              <td>
+                <button class="btn details-btn">إظهار التفاصيل</button>
+              </td>
+              <td><button class="btn select-btn">اختيار</button></td>
+            </tr>
+            <tr class="details-row" style="display: none">
+              <td colspan="5">
+                <img
+                  src="images/property5.jpg"
+                  alt="صورة العقار"
+                  class="property-img"
+                />
+                <ul>
+                  <li>المنطقة: المزة</li>
+                  <li>متوفر كراج: نعم</li>
+                  <li>الطابق: الأول</li>
+                  <li>الملكية: ملكية خاصة</li>
+                  <li>مساحة البلكون: 15 متر مربع</li>
+                  <li>مفروش: نعم</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>حلب</td>
+              <td>شقة 2 غرف وصالون</td>
+              <td>350,000 ل.س</td>
+              <td>
+                <button class="btn details-btn">إظهار التفاصيل</button>
+              </td>
+              <td><button class="btn select-btn">اختيار</button></td>
+            </tr>
+            <tr class="details-row" style="display: none">
+              <td colspan="5">
+                <img
+                  src="images/property6.jpg"
+                  alt="صورة العقار"
+                  class="property-img"
+                />
+                <ul>
+                  <li>المنطقة: الفرقان</li>
+                  <li>متوفر كراج: نعم</li>
+                  <li>الطابق: الثاني</li>
+                  <li>الملكية: إيجار</li>
+                  <li>مساحة البلكون: 10 متر مربع</li>
+                  <li>مفروش: لا</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td>دمشق</td>
+              <td>شقة 4 غرف وصالون</td>
+              <td>600,000 ل.س</td>
+              <td>
+                <button class="btn details-btn">إظهار التفاصيل</button>
+              </td>
+              <td><button class="btn select-btn">اختيار</button></td>
+            </tr>
+            <tr class="details-row" style="display: none">
+              <td colspan="5">
+                <img
+                  src="images/property7.jpg"
+                  alt="صورة العقار"
+                  class="property-img"
+                />
+                <ul>
+                  <li>المنطقة: المزة</li>
+                  <li>متوفر كراج: لا</li>
+                  <li>الطابق: الثالث</li>
+                  <li>الملكية: ملكية خاصة</li>
+                  <li>مساحة البلكون: 10 متر مربع</li>
+                  <li>مفروش: نعم</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td>حلب</td>
+              <td>شقة 2 غرف وصالون</td>
+              <td>300,000 ل.س</td>
+              <td>
+                <button class="btn details-btn">إظهار التفاصيل</button>
+              </td>
+              <td><button class="btn select-btn">اختيار</button></td>
+            </tr>
+            <tr class="details-row" style="display: none">
+              <td colspan="5">
+                <img
+                  src="images/property8.jpg"
+                  alt="صورة العقار"
+                  class="property-img"
+                />
+                <ul>
+                  <li>المنطقة: سيف الدولة</li>
+                  <li>متوفر كراج: لا</li>
+                  <li>الطابق: الثاني</li>
+                  <li>الملكية: ملكية خاصة</li>
+                  <li>مساحة البلكون: 5 متر مربع</li>
+                  <li>مفروش: لا</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td>حلب</td>
+              <td>شقة 6 غرف وصالون</td>
+              <td>800,000 ل.س</td>
+              <td>
+                <button class="btn details-btn">إظهار التفاصيل</button>
+              </td>
+              <td><button class="btn select-btn">اختيار</button></td>
+            </tr>
+            <tr class="details-row" style="display: none">
+              <td colspan="5">
+                <img
+                  src="images/property9.jpg"
+                  alt="صورة العقار"
+                  class="property-img"
+                />
+                <ul>
+                  <li>المنطقة: الحمدانية</li>
+                  <li>متوفر كراج: لا</li>
+                  <li>الطابق: الثالث</li>
+                  <li>الملكية: ملكية خاصة</li>
+                  <li>مساحة البلكون: 20 متر مربع</li>
+                  <li>مفروش: نعم</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td>حلب</td>
+              <td>شقة 3 غرف وصالون</td>
+              <td>500,000 ل.س</td>
+              <td>
+                <button class="btn details-btn">إظهار التفاصيل</button>
+              </td>
+              <td><button class="btn select-btn">اختيار</button></td>
+            </tr>
+            <tr class="details-row" style="display: none">
+              <td colspan="5">
+                <img
+                  src="images/property10.jpg"
+                  alt="صورة العقار"
+                  class="property-img"
+                />
+                <ul>
+                  <li>المنطقة: السليمانية</li>
+                  <li>متوفر كراج: لا</li>
+                  <li>الطابق: الثاني</li>
+                  <li>الملكية: ملكية خاصة</li>
+                  <li>مساحة البلكون: 5 متر مربع</li>
+                  <li>مفروش: نعم</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <div id="selected-property-form" class="section1" style="display: none">
+        <h2 class="center-align">نموذج متابعة</h2>
+        <form id="propertyForm" class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="name" type="text" class="validate" required />
+              <label for="name">الاسم الكامل</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="nationalId" type="text" class="validate" required />
+              <label for="nationalId">الرقم الوطني</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="dob" type="text" class="datepicker" />
+              <label for="dob">تاريخ الولادة</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="mobile" type="text" class="validate" />
+              <label for="mobile">رقم الموبايل</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate" />
+              <label for="email">البريد الإلكتروني</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="captchaInput" type="text" class="validate" required />
+              <label for="captchaInput"
+                >تحقق من أنك لست روبوت:
+                <span id="captcha" class="badge teal white-text"></span
+              ></label>
+            </div>
+          </div>
+          <button id="submitBtn" class="btn">إرسال</button>
+        </form>
+      </div>
+    </div>
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">موقع العقارات</h5>
+            <p class="grey-text text-lighten-4">
+              .اول موقع متخصص بتأجير العقارات في سوريا
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">تابعنا على</h5>
+            <ul>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!"
+                  ><i class=""></i> فيسبوك</a
+                >
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!"
+                  ><i class=""></i> تويتر</a
+                >
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!"
+                  ><i class=""></i> إنستجرام</a
+                >
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!"
+                  ><i class=""></i> لينكدإن</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">© 2024 موقع العقارات. جميع الحقوق محفوظة</div>
+      </div>
+    </footer>
+  </body>
+</html>

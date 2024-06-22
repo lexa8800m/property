@@ -1,0 +1,83 @@
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+nav .brand-logo {
+  font-size: 1.8rem;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.details-row ul {
+  text-align: right;
+  list-style: none;
+  padding: 0;
+}
+
+.details-row ul li {
+  padding: 5px 0;
+}
+.section {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 100%;
+  height: 1080px;
+  background: url(images/1289434.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hello {
+  position: absolute;
+  right: 20px;
+  top: 270px;
+  color: white;
+  background-color: rgba(65, 62, 58, 60%);
+  padding: 10px;
+}
+
+.property-img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 10px auto;
+}
+
+.nav-wrapper,
+.page-footer {
+  background-color: #413e3a;
+}
+.btn,
+.details-btn,
+.btn,
+.select-btn {
+  background-color: #413e3a;
+}
+footer {
+  padding-top: 0px;
+}
+
+footer .page-footer {
+  color: white;
+}
+
+footer .page-footer a {
+  color: white;
+  margin-right: 15px;
+  font-size: 1.5rem;
+}
+
+footer .page-footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .page-footer .container .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
