@@ -37,6 +37,15 @@ nav .brand-logo {
   background-color: rgba(65, 62, 58, 60%);
   padding: 10px;
 }
+.names {
+  font-size: 18px;
+  text-align: right;
+  width: 30%;
+  color: white;
+  background-color: rgba(65, 62, 58, 60%);
+  padding: 20px;
+  margin-left: 20px;
+}
 
 .property-img {
   width: 100%;
